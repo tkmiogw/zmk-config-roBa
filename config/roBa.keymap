@@ -70,7 +70,7 @@
 &kp Q             &kp W         &kp E         &kp R      &kp T                                                 &kp Y        &kp U  &lt 5 I    &kp O    &kp P
 &kp A             &kp S         &kp D         &kp F      &kp G        &mkp MB3                &kp MINUS        &kp H        &kp J  &kp K      &kp L    &kp SQT
 &mt LEFT_SHIFT Z  &kp X         &kp C         &kp V      &kp B        &lt 1 COLON             &lt 6 SEMICOLON  &kp N        &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp TAB           &kp LEFT_WIN  &kp LEFT_ALT  &kp LCTRL  &lt 3 SPACE  &lt 5 LS(CAPSLOCK)      &kp BACKSPACE    &lt 2 ENTER                             &kp DEL
+&kp TAB           &kp LEFT_WIN  &kp LEFT_ALT  &kp LCTRL  &lt 3 SPACE  &lt 5 LS(CAPSLOCK)      &kp BACKSPACE    &lt 2 ENTER                             &kp CAPSLOCK
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
