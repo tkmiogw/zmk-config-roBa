@@ -40,6 +40,22 @@
         };
     };
 
+    macros {
+        mac_setup: osx_setup {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&bt BT_SEL 0 &tog 0>;
+            label = "OSX_SETUP";
+        };
+
+        win_setup: win_setup {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&bt BT_SEL 1 &tog 1>;
+            label = "WIN_SETUP";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
