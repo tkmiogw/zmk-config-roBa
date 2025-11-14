@@ -57,11 +57,13 @@
     };
 
     macros {
-        to_layer_0: to_layer_0 {
-            compatible = "zmk,behavior-macro-one-param";
-            #binding-cells = <1>;
-            bindings = <&to 0 &macro_param_1to1 &kp MACRO_PLACEHOLDER>;
-            label = "TO_LAYER_0";
+        encoder_msc_up_down: encoder_msc_up_down {
+            compatible = "zmk,behavior-sensor-rotate";
+            label = "ENCODER_MSC_UP_DOWN";
+            #sensor-binding-cells = <0>;
+            bindings = <&msc SCRL_UP>, <&msc SCRL_DOWN>;
+
+            tap-ms = <20>;
         };
     };
 
@@ -73,6 +75,14 @@
 
             #binding-cells = <2>;
             tapping-term-ms = <200>;
+        };
+        encoder_msc_up_down: encoder_msc_up_down {
+            compatible = "zmk,behavior-sensor-rotate";
+            label = "ENCODER_MSC_UP_DOWN";
+            #sensor-binding-cells = <0>;
+            bindings = <&msc SCRL_UP>, <&msc SCRL_DOWN>;
+
+            tap-ms = <20>;
         };
     };
 
@@ -87,7 +97,7 @@
 &kp LEFT_SHIFT    &kp LEFT_ALT  &kp LEFT_CONTROL  &mt LEFT_GUI LANGUAGE_2  &lt 2 SPACE         &kp TAB            &kp BACKSPACE  &lt 3 ENTER                             &kp LS(LG(S))
             >;
 
-            sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
+            sensor-bindings = <&encoder_msc_up_down>;
         };
 
         FUNCTION {
