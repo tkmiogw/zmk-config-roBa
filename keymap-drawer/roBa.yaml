@@ -43,7 +43,7 @@ layers:
   - TAB
   - BACKSPACE
   - {t: ENTER, h: number}
-  - Sft+Gui+S
+  - Sft+Gui+5
   FUNCTION:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
