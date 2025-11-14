@@ -86,7 +86,7 @@
 &kp LEFT_SHIFT    &kp LEFT_ALT  &kp LEFT_CONTROL  &mt LEFT_GUI LANGUAGE_2  &lt 2 SPACE         &kp TAB            &kp BACKSPACE  &lt 3 ENTER                             &kp LS(LG(S))
             >;
 
-            sensor-bindings = <&inc_dec_kp SCRL_UP SCRL_DOWN>;
+            sensor-bindings = <&msc SCRL_UP SCRL_DOWN>;
         };
 
         FUNCTION {
@@ -106,7 +106,7 @@
 &trans   &trans              &trans            &trans         &trans  &trans            &trans  &trans                                   &trans
             >;
 
-            sensor-bindings = <&inc_dec_kp SCRL_LEFT SCRL_RIGHT>;
+            sensor-bindings = <&msc SCRL_LEFT SCRL_RIGHT>;
 
         };
 
