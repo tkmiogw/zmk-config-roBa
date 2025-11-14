@@ -27,8 +27,6 @@
     // };
 };
 
-&mkp_input_listener { input-processors = <&zip_temp_layer 2 250>; };
-
 / {
     combos { compatible = "zmk,combos"; };
 
