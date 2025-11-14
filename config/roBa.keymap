@@ -9,7 +9,7 @@
 };
 
 &trackball {
-    automouse-layer = <2>;
+    // automouse-layer = <2>;
     scroll-layers = <5>;
 
     // arrows {
@@ -86,7 +86,7 @@
 &kp LEFT_SHIFT    &kp LEFT_ALT  &kp LEFT_CONTROL  &mt LEFT_GUI LANGUAGE_2  &lt 2 SPACE         &kp TAB            &kp BACKSPACE  &lt 3 ENTER                             &kp LS(LG(S))
             >;
 
-            sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
+            sensor-bindings = <&inc_dec_kp SCRL_UP SCRL_DOWN>;
         };
 
         FUNCTION {
@@ -105,6 +105,9 @@
 &trans   &kp LC(LEFT_ARROW)  &kp LC(DOWN)      &kp LC(RIGHT)  &trans  &kp CAPSLOCK      &trans  &mkp MB4  &kp LEFT  &kp DOWN  &kp RIGHT  &trans
 &trans   &trans              &trans            &trans         &trans  &trans            &trans  &trans                                   &trans
             >;
+
+            sensor-bindings = <&inc_dec_kp SCRL_LEFT SCRL_RIGHT>;
+
         };
 
         number {
