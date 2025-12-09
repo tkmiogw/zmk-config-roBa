@@ -11,7 +11,7 @@ layers:
   - {t: I, h: SCROLL}
   - O
   - P
-  - {t: A, h: LCTRL}
+  - A
   - S
   - D
   - F
@@ -23,7 +23,7 @@ layers:
   - K
   - L
   - '-'
-  - {t: Z, h: LEFT SHIFT}
+  - Z
   - X
   - C
   - V
@@ -152,7 +152,7 @@ layers:
   - {t: ▽, type: trans}
   - ']'
   - ''
-  - '#'
+  - Sft+UP ARROW
   - ''
   - {t: ▽, type: trans}
   - \
@@ -162,10 +162,10 @@ layers:
   - '{'
   - ''
   - {t: ▽, type: trans}
-  - '['
-  - ']'
-  - '{'
   - '}'
+  - Sft+LEFT
+  - Sft+DOWN
+  - Sft+RIGHT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '0'
